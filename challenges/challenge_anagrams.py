@@ -19,6 +19,3 @@ def is_anagram(first_string, second_string):
         return f, s, True
     else:
         return f, s, False
-
-
-print(is_anagram("pedra", "perdaaa"))
