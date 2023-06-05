@@ -1,4 +1,17 @@
 # def find_duplicate(nums):
+#     numeros_repetidos = []
+#     numeros_verificados = set()
+
+#     for numero in nums:
+#         if numero in numeros_verificados:
+#             numeros_repetidos.append(numero)
+#         else:
+#             numeros_verificados.add(numero)
+
+#     return numeros_repetidos
+
+
+# def find_duplicate(nums):
 #     for num in nums:
 #         if not isinstance(num, int) or num < 0:
 #             return False
